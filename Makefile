@@ -2,9 +2,9 @@ CC=gcc
 ARCH=x86_64
 
 # configure your linux!
-LINUX_VERSION=5.17.5
+LINUX_VERSION=6.2
 LINUX_DIR=linux-$(LINUX_VERSION)
-LINUX_URL=https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz
+LINUX_URL=https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.tar.xz
 
 .PHONY: linux run
 
